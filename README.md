@@ -1,2 +1,2 @@
-# NLU_project_2021-2022
+# NLU project - Intent classification and slot filling
 Final project for the Natural Language Understanding course - University of Trento
