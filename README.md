@@ -1,5 +1,5 @@
-# NLU project - Intent Classification and Slot Filling
-## Final project for the Natural Language Understanding course - University of Trento
+# NLU project - Intent Classification and Slot Filling  👨‍💻
+## Final project for the Natural Language Understanding course - University of Trento - Alberto Casagrande
 
 Slot filling and intent detection play important roles in Natural Language Understanding (NLU) systems, in which the main goal is to identify the intent
 and extract semantic constituents from the utterance. The goal of the project is to implement a neural network that, given a sentence, predicts intents and slots simultaneously, so that the performance of the resulting model benefits from the Multi-Task Learning framework. In this way the model obtains shared parameters and features between two tasks and implements joint optimization using a weighted loss function. The problem is therefore treated as a **multitask learning problem**, where these two tasks are tackled simultaneously trying to exploit the interactions and information sharing between them. In particular, **intent classification** aims to identify speaker’s intent from a given utterance (works on the utterance-level) and it is modeled as a classification problem, while **slot filling** annotates the utterance on a word-level, indicating the slot type mentioned by a certain word. Slot filling is modeled as a sequence labelling problem. The two tasks are used to obtain a structured representation of the meaning of the utterance, so that it can be processed by a computer.
